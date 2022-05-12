@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'RsxWebPortal'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EC6F159797014637BE28A8D7AD4D21AD }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E754BA666CAC42EB9AD16E3A2D568859 }}
           package: .
