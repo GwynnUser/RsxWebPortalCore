@@ -8,7 +8,7 @@ env:
   AZURE_WEBAPP_PACKAGE_PATH: RsxWebPortalCore/publish
   AZURE_WEBAPP_PUBLISH_PROFILE: ${{ secrets.RsxWebPortal_d51e }}
   CONFIGURATION: Release
-  DOTNET_CORE_VERSION: 3.1.x
+  DOTNET_CORE_VERSION: 3.1
   WORKING_DIRECTORY: RsxWebPortalCore
 jobs:
   build-and-deploy:
